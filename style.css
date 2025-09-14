@@ -18,25 +18,33 @@ h2{
 body{
     background-color: #071e26;
 }
-
-.header{
-    background-color: #071e26;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 85px;
-    padding:5px 10% ;
-}
-
-.header.logo{
+/* Cambios realizados */
+.logo{
     cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap:8px;
+    span{
+        color:white;
+    }
+}
+/* Modifica las prodpiedades de la imagen del logotipo */
+.logo img{
+    height: 60px;
+    width: 60px;
+    transition: all 0.3s;
+    color: white;
+} 
+
+.nav-bar{
+    padding: 0 8px 0 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
-.header .logo img{
-    height: 150px;
-    width: auto;
-    transition: all 0.3s;
-}
+/* Hasta aqui */
 
 .header .logo img:hover{
     transform: scale(1.2);
@@ -80,6 +88,7 @@ body{
     color:#00cc8f;
     transform: scale(1.1);
 }
+
 section{
     margin: 30px; 
     margin-top: 20px;
