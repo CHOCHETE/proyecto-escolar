@@ -31,8 +31,8 @@ body{
 }
 /* Modifica las prodpiedades de la imagen del logotipo */
 .logo img{
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     transition: all 0.3s;
     color: white;
 } 
@@ -93,25 +93,14 @@ section{
     margin: 30px; 
     margin-top: 20px;
 }
-ul {
+#lista{
     color: rgb(220, 206, 206);
 }
 p{
     color: rgb(220, 206, 206);
-    margin-top: 10px;
+    
 }
-ol {
+.Planeacion {
     color: rgb(220, 206, 206);
 }
-nav > h1{
-    color: white;
-    font-size: 25px;
-    padding: 10px;
-    margin-left: 20px;
-}
-/*.logo-text span{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}*/
 
