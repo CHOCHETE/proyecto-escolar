@@ -1,0 +1,22 @@
+body{
+    background-color: #071e26;
+}
+
+table{
+    background-color: green;
+    color: white;
+}
+
+
+.whasapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+.whasapp:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+
+}

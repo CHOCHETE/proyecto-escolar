@@ -9,7 +9,7 @@
     }
 
 h2{
-    
+    text-align: center;
     color: #00cc8f ;
     margin-top: 20px;
     font-size: 28px;
@@ -94,13 +94,19 @@ section{
     margin-top: 20px;
 }
 #lista{
+    justify-items: center;
     color: rgb(220, 206, 206);
 }
 p{
     color: rgb(220, 206, 206);
-    
+    justify-items: center;
+    text-align: center;
 }
 .Planeacion {
+    text-align: center;
     color: rgb(220, 206, 206);
 }
 
+li{
+    margin: 8px;
+}
