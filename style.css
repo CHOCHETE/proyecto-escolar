@@ -112,7 +112,7 @@ p{
     margin: 8px;
 }
 
-@media (max-width:412px){
+@media (min-width:400px){
 
 
     
@@ -187,8 +187,10 @@ p{
     color:#00cc8f;
     transform: scale(1.1);
 }
-}
 
+body{
+    background-color: #00b3ef;
+}
 
 
 
