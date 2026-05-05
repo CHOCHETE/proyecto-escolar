@@ -4,8 +4,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
     }
 
 h2{
@@ -105,15 +105,16 @@ p{
 .Planeacion {
     text-align: center;
     color: rgb(220, 206, 206);
+    
 }
 
 .Planeacion > li{
     
     margin: 8px;
+    font-style: none;
 }
 
-@media (min-width:300px){
-
+ @media (min-width:300px){
 
     
 /* Cambios realizados */
@@ -124,20 +125,20 @@ p{
     align-items: center;
     gap:8px;
     span{
-        font-size: 12px;
+        font-size: 22px;
         color:white;
     }
 }
 /* Modifica las prodpiedades de la imagen del logotipo */
 .logo img{
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
     transition: all 0.3s;
-   /* color: rgb(246, 80, 80);*/
+    /* color: rgb(246, 80, 80);*/
 } 
 /*  */
 .nav-bar{
-  /*  padding: 0 8px 0 8px;*/
+    /*  padding: 0 8px 0 8px;*/
     width: 102%;
     display: flex;
     align-items: center;
@@ -150,7 +151,7 @@ p{
 }
 
 .header .nav-links{
- /*   list-style: none;*/
+/*   list-style: none;*/
     display: flex;
     width: 650px;
     gap :9px;
@@ -161,7 +162,7 @@ p{
 }
 
 .header .nav-links a{
-    font-size: 14px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     text-decoration: none;
 
@@ -187,5 +188,4 @@ p{
     color:#00cc8f;
     transform: scale(1.1);
 }
-
 }

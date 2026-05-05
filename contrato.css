@@ -10,13 +10,10 @@ table{
 
 .whasapp{
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    
 
 }
 .whasapp:hover{
     transform: scale(1.1);
     cursor: pointer;
-    
-
 }

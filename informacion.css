@@ -1,0 +1,15 @@
+
+body{
+    background-color: #071e26;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+p,h1, h2{
+    color: #00cc8f;
+    }
