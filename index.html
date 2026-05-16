@@ -19,19 +19,40 @@
             <span>CodeNova Systems</span>
         </div>
 
-        <ul class="nav-links">
+        <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="#servicios">Servicios</a></li>
             <li><a href="integrantes.html">Equipo</a></li>
             <li><a href="contrato.html">Precios</a></li>
+            <li><a href="https://wa.me/527446961853" target="_blank" class="btn">WhatsApp</a></li>
         </ul>
-
-        <a href="https://wa.me/527446961853" target="_blank" class="btn">
-            WhatsApp
-        </a>
 
     </nav>
 </header>
+
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    
+    hamburger.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+        hamburger.classList.toggle('active');
+    });
+    
+    // Cerrar menú al hacer click en un link
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', function() {
+            navLinks.classList.remove('active');
+            hamburger.classList.remove('active');
+        });
+    });
+</script>
 
 <section class="hero">
     <img src="img/logo3.png" class="hero-logo">
